@@ -1,0 +1,7 @@
+
+public class Exercicio02CalculoBonusFuncionario {
+	public static void main(String[] args) {
+		
+		Double metaFaturamentoAnual = 100000000.0;
+	}
+}

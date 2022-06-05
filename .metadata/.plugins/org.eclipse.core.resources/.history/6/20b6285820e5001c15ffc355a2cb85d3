@@ -1,0 +1,19 @@
+import java.util.Scanner;
+
+public class Exercicio03NomeDoDiaDaSemana {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o número do dia desejado: ");
+		Integer dia = scanner.nextInt();
+		
+		String nome = "";
+		
+		switch(dia) {
+		case 1: nome = "segunda-feira";
+		
+		}
+		
+		scanner.close();
+	}
+}

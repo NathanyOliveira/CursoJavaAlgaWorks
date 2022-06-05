@@ -1,0 +1,34 @@
+import java.util.Scanner;
+
+public class Exercicio03NomeDoDiaDaSemana {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o número do dia desejado: ");
+		Integer dia = scanner.nextInt();
+		
+		String nome = "";
+		
+		switch(dia) {
+		case 1: nome = "segunda-feira";
+			break;
+		case 2: nome = "terça-feira";
+			break;
+		case 3: nome = "quarta-feira";
+			break;
+		case 4: nome = "quinta-feira";
+			break;
+		case 5: nome = "sexta-feira";
+			break;
+		case 6: nome = "sábado";
+			break;
+		case 7: nome = "domindo";
+			break;
+		default:
+			System.err.println("Não é um número válido");
+			System.exit(1);
+		}
+		
+		scanner.close();
+	}
+}

@@ -1,0 +1,15 @@
+
+public class EstruturaSwitch {
+
+	public static void main(String[] args) {
+		switch (mes) {
+		case 1: desconto = 0.0 
+			
+		break;
+		
+		default:
+			throw new IllegalArgumentException("Unexpected value: " + key);
+		}
+	}
+
+}

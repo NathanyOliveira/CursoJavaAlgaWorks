@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class UtilizandoIfEncadeado {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		final Integer PESO_BASE = 60;
+		
+		System.out.println("Digite o seu peso: ");
+		Double peso = scanner.nextDouble();
+		
+		Boolean pesoLeve = peso <= 60;
+		scanner.close();
+	}
+
+}

@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class Exercicio02CalculoBonusFuncionario {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	
+		System.out.println("Digite a meta do faturamento anual: ");
+		Double metaFaturamentoAnual = scanner.nextDouble();
+		
+		System.out.println("Digite o faturamento real: ");
+		Double faturamentoReal = scanner.nextDouble();
+
+		Double bonusSalarial = 12000.0;
+		Double bonusParcial = mediaSalarial * 80/100;
+		
+		if(faturamentoReal >= metaFaturamentoAnual) {
+			System.out.println("Parabéns por atingir a meta! Seu bônus é de: " + bonusSalarial);
+			
+		}else if (faturamentoReal < metaFaturamentoAnual && faturamentoReal >= metaFaturamentoAnual*80/100) {
+			System.out.println("Parte da meta foi atingida! Seu bônus é de: " + bonusParcial );
+		}else {
+			System.out.println("Meta não atingida!");
+		}
+				
+		scanner.close();
+	}
+}

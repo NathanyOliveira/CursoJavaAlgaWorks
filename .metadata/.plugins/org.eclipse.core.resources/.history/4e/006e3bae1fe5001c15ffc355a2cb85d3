@@ -1,0 +1,6 @@
+
+public class Exercicio03NomeDoDiaDaSemana {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in) 
+	}
+}

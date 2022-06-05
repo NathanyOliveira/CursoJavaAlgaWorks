@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Exercicio02CalculoBonusFuncionario {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+	
+		System.out.println("Digite a meta do faturamento anual: ");
+		Double metaFaturamentoAnual = scanner.nextDouble();
+		
+		System.out.println("Digite o faturamento real: ");
+		Double faturamentoReal = scanner.nextDouble();
+
+		Double mediaSalarial = 12000.00
+		scanner.close();
+	}
+}

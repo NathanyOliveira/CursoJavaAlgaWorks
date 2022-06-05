@@ -1,0 +1,17 @@
+import java.util.Scanner;
+
+public class EstruturaSwitch {
+
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		System.out.println("Digite o número do mês desejado: ");
+		Integer mes = scanner.nextInt();
+		Double desconto = 0.0
+		
+		
+		scanner.close();
+
+
+}
+}
