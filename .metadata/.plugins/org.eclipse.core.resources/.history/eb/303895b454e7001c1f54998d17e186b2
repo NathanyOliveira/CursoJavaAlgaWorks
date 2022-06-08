@@ -1,0 +1,12 @@
+import java.util.Iterator;
+
+public class IteracaoFor {
+
+	public static void main(String[] args) {
+		
+		for(;;) {
+		System.out.println("Uma frase qualquer!");
+		
+	}
+
+}
