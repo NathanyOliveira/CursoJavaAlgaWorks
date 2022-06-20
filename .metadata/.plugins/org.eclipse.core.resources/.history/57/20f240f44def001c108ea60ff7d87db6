@@ -1,0 +1,13 @@
+
+public class Vetores1Dimensao {
+
+	public static void main(String[] args) {
+		String[]cardapio = new String [] {"Clabresa", "Atum", "Queijo", "Presunto"};
+		
+		System.out.println("Escolha o sabor: ");
+		
+		for(int i = 0; i < cardapio.length; i++) {}
+
+	}
+
+}
