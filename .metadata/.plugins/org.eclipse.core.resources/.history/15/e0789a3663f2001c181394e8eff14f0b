@@ -1,0 +1,14 @@
+import java.util.Scanner;
+
+public class Exercicio04ExibirTabuadaDeUmNumeroQualquer {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		scanner.close();
+	}
+	static Double imprimirTabuada = new Double[] {0.0, 0.0};
+
+	
+}

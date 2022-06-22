@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+/*Crie um programa que peça dois números do usuário e também qual a operação ele 
+ * deseja fazer - adição ou subtração. Para cada operação, você deve construir um método que 
+ * realize a mesma, ou seja, teremos um método para adição, que vai receber dois números
+ *  como parâmetros e retornar o resultado da soma entre eles, e outro método para 
+ *  subtração.*/
+
+
+public class Exercicio03CalculadoraSubtracaoEAdicao {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+	
+		System.out.println("Digite o primeiro número: ");
+		Double firstNumber = scanner.nextDouble();
+		
+		System.out.println("Digite o segundo número: ");
+		Double secondNumber = scanner.nextDouble();
+		
+		scanner.close();
+		
+	}
+
+}

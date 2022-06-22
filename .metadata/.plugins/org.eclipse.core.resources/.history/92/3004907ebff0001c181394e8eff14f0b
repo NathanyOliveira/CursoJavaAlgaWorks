@@ -1,0 +1,13 @@
+import java.util.Scanner;
+
+public class PrimeiroMetodo {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		imprimirTraco();
+		scanner.close();
+	}
+	static void imprimirTraco(){
+		System.out.println("-----------------------------");
+	}
+}

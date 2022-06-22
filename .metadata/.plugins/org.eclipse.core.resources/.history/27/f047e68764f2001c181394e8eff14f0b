@@ -1,0 +1,36 @@
+import java.util.Scanner;
+
+public class Exercicio04ExibirTabuadaDeUmNumeroQualquer {
+
+	public static void main(String[] args) {
+		
+		Scanner scanner = new Scanner(System.in);
+		
+		scanner.close();
+	}
+	
+	static Double imprimirTabuada(Integer multiplicando, multiplicador) {
+		Double resultado = null;
+		
+	}
+
+	
+}
+
+static Double realizarCalculo(Integer operacao, Double numeroEsquerda, Double numeroDireita) {
+	Double resultado = null;
+	
+	switch (operacao) {
+	case 0:
+		resultado = subtracao(numeroEsquerda, numeroDireita);
+		break;
+	case 1:
+		resultado = adicao(numeroEsquerda, numeroDireita);
+		break;
+	default:
+		System.err.println("Escolha uma operação válida!");
+		System.exit(0);
+	}
+	
+	return resultado;
+}

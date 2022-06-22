@@ -1,0 +1,39 @@
+import java.util.Scanner;
+
+public class Exercicio04ExibirTabuadaDeUmNumeroQualquer {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Digite o número para calcular a tabuada: ");
+		Scanner scanner = new Scanner(System.in);
+		Double tabuadaEntrada = scanner.nextDouble();
+		int batata = 0;
+		batata = imprimirTabuada(tabuadaEntrada, 0.0);
+		System.out.println(batata);
+		int a = 0;
+		
+		scanner.close();
+	}
+	static int toma1() {
+		return 331;
+	}
+	
+	static int imprimirTabuada(Double multiplicando, Double multiplicador) {
+		
+		Double resultado = 0.0;
+		double contagem = multiplicador;
+		if (contagem <= 10) {
+			 resultado = multiplicando * contagem;
+			System.out.println(multiplicando.toString() + " x " + contagem + " = " + resultado);
+			contagem++;
+			imprimirTabuada(multiplicando, contagem);
+		}
+		return toma1();
+	}
+
+}
+
+
+
+	
+	

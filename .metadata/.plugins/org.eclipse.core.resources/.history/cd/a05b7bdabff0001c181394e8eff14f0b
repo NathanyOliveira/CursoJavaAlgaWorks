@@ -1,0 +1,20 @@
+import java.util.Scanner;
+
+public class PrimeiroMetodo {
+	public static void main(String[] args) {
+		Scanner scanner = new Scanner(System.in);
+		
+		imprimirTraco();
+		
+		String[]cursos = new String[] {"Java EE", "Spring", "Java OO Avançado"};
+		
+		System.out.println("Escolha dentre os cursos abaixo: ");
+		
+		for(int i = 0; i < cursos.length; i++) {}
+		
+		scanner.close();
+	}
+	static void imprimirTraco(){
+		System.out.println("-----------------------------");
+	}
+}

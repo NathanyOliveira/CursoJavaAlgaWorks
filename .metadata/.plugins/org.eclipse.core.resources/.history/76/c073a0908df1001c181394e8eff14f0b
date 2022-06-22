@@ -1,0 +1,11 @@
+
+public class RetornandoValores {
+	public static void main(String[] args) {
+	
+	}
+	
+	static Integer numeroAleatorio() {
+		return 1;
+		
+	}
+}

@@ -1,0 +1,14 @@
+
+public class RecebendoParametros {
+
+	public static void main(String[] args) {
+		imprimir("------------------------");
+		imprimir("Joao");
+			
+	
+	
+	static void imprimir(String texto) {
+		System.out.println(texto);
+	}
+}
+

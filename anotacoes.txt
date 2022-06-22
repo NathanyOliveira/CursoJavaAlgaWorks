@@ -1,0 +1,8 @@
+Anotacoes Java	
+
+Alt+Shift+R no eclipse = Ctrl+D no VS code.
+
+
+[code lang="java"]
+System.out.println("Aqui deve ficar o código");
+[/code]

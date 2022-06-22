@@ -18,7 +18,7 @@ public class PraticarVetores2Dimensoes {
 			Double faturamentoSemana = 0.0;
 			
 			for (int y = 0; y < semana.length; y++) {
-				faturamentoSemana += semana[y];
+				faturamentoSemana = faturamentoSemana + semana[y];
 				
 			}
 			
