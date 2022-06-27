@@ -1,4 +1,4 @@
-package Exercicio02NecessidadeDeReporEstoque;
+package exercicio02NecessidadeDeReporEstoque;
 
 
 public class Main {
