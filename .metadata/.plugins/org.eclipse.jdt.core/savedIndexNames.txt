@@ -8,6 +8,5 @@ INDEX VERSION 1.131+C:\estudos\CursoJava\.metadata\.plugins\org.eclipse.jdt.core
 2143276423.index
 146341137.index
 1640577247.index
-1117171961.index
 3789248548.index
 2412206579.index
