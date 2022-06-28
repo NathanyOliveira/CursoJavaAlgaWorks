@@ -5,8 +5,12 @@
     <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="sobrecarga.Quadrilatero"/>
     <fullyQualifiedTypeName name="java.util.Scanner"/>
-    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
-    <fullyQualifiedTypeName name="java.nio.file.Files"/>
-    <fullyQualifiedTypeName name="java.nio.file.Path"/>
     <fullyQualifiedTypeName name="java.util.ArrayList"/>
+    <fullyQualifiedTypeName name="java.nio.file.Paths"/>
+    <fullyQualifiedTypeName name="java.nio.file.Path"/>
+    <fullyQualifiedTypeName name="java.nio.file.Files"/>
+    <fullyQualifiedTypeName name="bibliotecaemail.UsandoBibliotecaDeEmal"/>
+    <fullyQualifiedTypeName name="bibliotecaemail.UsandoBibliotecaDeEmail"/>
+    <fullyQualifiedTypeName name="org.apache.commons.mail.DefaultAuthenticator"/>
+    <fullyQualifiedTypeName name="bibliotecaemail.Carteiro"/>
 </qualifiedTypeNameHistroy>
